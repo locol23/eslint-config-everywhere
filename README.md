@@ -58,4 +58,4 @@ eslint /path/to/your_source
 
 # Lisence
 
-MIT
+[MIT](LICENSE)
