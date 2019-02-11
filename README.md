@@ -38,6 +38,18 @@ In your ESLint config file, set the `extends` property:
 }
 ```
 
+### React + TypeScript
+
+```js
+{
+  "extends": [
+    "everywhere",
+    "everywhere/react",
+    "everywhere/typescript"
+  ]
+}
+```
+
 ## Run ESLint
 
 ```
