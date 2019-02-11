@@ -50,6 +50,14 @@ In your ESLint config file, set the `extends` property:
 }
 ```
 
+### Jest
+
+```js
+{
+  "extends": ["everywhere/jest"]
+}
+```
+
 ## Run ESLint
 
 ```
