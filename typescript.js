@@ -10,7 +10,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'sort-imports': ['error', {
-      "ignoreDeclarationSort": true,
+      'ignoreDeclarationSort': true,
     }],
     semi: ['error', 'never'],
     'object-curly-newline': 0,
