@@ -27,6 +27,6 @@ module.exports = {
     'react/jsx-boolean-value': 2,
     'react/destructuring-assignment': ['error', 'never'],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warning'
+    'react-hooks/exhaustive-deps': 'warn'
   }
 }
