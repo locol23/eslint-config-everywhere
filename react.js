@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:react/recommended',
-    'react-hooks'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -16,7 +15,10 @@ module.exports = {
   settings: {
     react: { version: 'detect' },
   },
-  plugins: ['react'],
+  plugins: [
+    'react',
+    'react-hooks'
+  ],
   rules: {
     'import/prefer-default-export': 0,
     'import/no-unresolved': 0,
