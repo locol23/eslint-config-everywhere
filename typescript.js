@@ -9,6 +9,6 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
-    'class-methods-use-this': 0,
+    '@typescript-eslint/no-unused-vars': 'error',
   },
 }
