@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['./unicorn.js', 'plugin:prettier/recommended'],
   parserOptions: {
-    ecmaVersion: 2019,
+    ecmaVersion: 12,
     sourceType: 'module',
   },
   plugins: ['prettier'],
