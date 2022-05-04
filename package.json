@@ -18,7 +18,7 @@
   ],
   "author": "Yoshitaka Terazawa <locol6622@gmail.com>",
   "engines": {
-    "node": ">= v16.14.2"
+    "node": ">= v16.15.0"
   },
   "license": "MIT",
   "bugs": {
