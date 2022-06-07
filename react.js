@@ -47,5 +47,6 @@ module.exports = {
         optionalDependencies: false,
       },
     ],
+    'react/function-component-definition': 0,
   },
 }
