@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "ESLint config for everywhere",
   "main": "index.js",
+  "files": [
+    "*.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +19,8 @@
     "prettier",
     "typescript",
     "react",
-    "jest"
+    "jest",
+    "testing-library"
   ],
   "author": "Yoshitaka Terazawa <locol6622@gmail.com>",
   "engines": {
