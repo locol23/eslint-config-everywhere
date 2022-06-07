@@ -50,11 +50,24 @@ In your ESLint config file, set the `extends` property:
 }
 ```
 
-### Jest
+### Test(Jest + testing-library/react)
 
 ```js
 {
-  "extends": ["everywhere/jest"]
+  "extends": ["everywhere/test"]
+}
+```
+
+### All
+
+```js
+{
+  "extends": [
+    "everywhere",
+    "everywhere/react",
+    "everywhere/typescript"
+    "everywhere/test"
+  ]
 }
 ```
 

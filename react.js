@@ -6,9 +6,11 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:react/recommended',
-    'prettier/react',
     'plugin:react-hooks/recommended',
+    'plugin:jsx-a11y/recommended',
+    'prettier',
   ],
+  plugins: ['import', 'react', 'jsx-a11y'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -38,5 +40,12 @@ module.exports = {
     'react/jsx-boolean-value': 2,
     'react/jsx-props-no-spreading': 'off',
     'react/no-danger': 0,
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/*.stories.*', '**/*.test.*', '**/*.spec.*'],
+        optionalDependencies: false,
+      },
+    ],
   },
 }
