@@ -54,7 +54,7 @@ In your ESLint config file, set the `extends` property:
 
 ```js
 {
-  "extends": ["everywhere/test"]
+  "extends": ["everywhere/jest", "everywhere/testing-library-react"]
 }
 ```
 
@@ -66,7 +66,8 @@ In your ESLint config file, set the `extends` property:
     "everywhere",
     "everywhere/react",
     "everywhere/typescript",
-    "everywhere/test"
+    "everywhere/jest",
+    "everywhere/testing-library-react"
   ]
 }
 ```
