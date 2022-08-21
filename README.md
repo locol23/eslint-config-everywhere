@@ -58,6 +58,14 @@ In your ESLint config file, set the `extends` property:
 }
 ```
 
+### Storybook
+
+```js
+{
+  "extends": ["everywhere/storybook"]
+}
+```
+
 ### All
 
 ```js
@@ -67,7 +75,8 @@ In your ESLint config file, set the `extends` property:
     "everywhere/react",
     "everywhere/typescript",
     "everywhere/jest",
-    "everywhere/testing-library-react"
+    "everywhere/testing-library-react",
+    "everywhere/storybook"
   ]
 }
 ```
