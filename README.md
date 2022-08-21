@@ -65,7 +65,7 @@ In your ESLint config file, set the `extends` property:
   "extends": [
     "everywhere",
     "everywhere/react",
-    "everywhere/typescript"
+    "everywhere/typescript",
     "everywhere/test"
   ]
 }
