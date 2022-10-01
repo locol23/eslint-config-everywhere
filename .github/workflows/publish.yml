@@ -10,16 +10,24 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16, 18]
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 5
-      - uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v2.2.2
         with:
-          node-version: '16.x'
+          version: 7
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
+          cache: 'pnpm'
       - name: Publish
-        run: npx can-npm-publish && npm publish || echo "Does not publish"
+        run: pnpx can-npm-publish && npm publish || echo "Does not publish"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
       - name: package-version
