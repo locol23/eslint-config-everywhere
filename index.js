@@ -45,7 +45,6 @@ module.exports = {
       },
     ],
     'no-unused-vars': 'off',
-    'sort-imports': ['error'],
     'sort-keys-fix/sort-keys-fix': ['error', 'asc', { natural: true }],
   },
 }
