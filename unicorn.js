@@ -25,6 +25,8 @@ module.exports = {
           props: true,
           Params: true,
           params: true,
+          Ref: true,
+          ref: true,
         },
       },
     ],
