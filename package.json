@@ -54,5 +54,5 @@
   "peerDependencies": {
     "eslint": "^8.0.0 || ^7.0.0"
   },
-  "packageManager": "pnpm@7.20.0"
+  "packageManager": "pnpm@7.21.0"
 }
