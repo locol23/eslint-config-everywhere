@@ -48,7 +48,7 @@
     "eslint-plugin-unicorn": "^44.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.30.0",
+    "eslint": "^8.31.0",
     "typescript": "^4.9.4"
   },
   "peerDependencies": {
