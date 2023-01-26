@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-everywhere",
-  "version": "3.2.3",
+  "version": "3.3.3",
   "description": "ESLint config for everywhere",
   "main": "index.js",
   "files": [
