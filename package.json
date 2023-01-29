@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-everywhere",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "description": "ESLint config for everywhere",
   "main": "index.js",
   "files": [
@@ -43,6 +43,7 @@
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-storybook": "^0.6.10",
     "eslint-plugin-testing-library": "^5.9.1",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unicorn": "^45.0.2"
