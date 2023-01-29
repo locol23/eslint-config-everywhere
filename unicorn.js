@@ -1,5 +1,11 @@
 module.exports = {
-  extends: 'plugin:unicorn/recommended',
+  env: {
+    es2022: true,
+  },
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
   plugins: ['unicorn'],
   rules: {
     'unicorn/filename-case': [
