@@ -13,6 +13,7 @@ specifiers:
   eslint-plugin-react: ^7.32.1
   eslint-plugin-react-hooks: ^4.6.0
   eslint-plugin-sort-keys-fix: ^1.1.2
+  eslint-plugin-storybook: ^0.6.10
   eslint-plugin-testing-library: ^5.9.1
   eslint-plugin-typescript-sort-keys: ^2.1.0
   eslint-plugin-unicorn: ^45.0.2
@@ -30,6 +31,7 @@ dependencies:
   eslint-plugin-react: 7.32.1_eslint@8.32.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.32.0
   eslint-plugin-sort-keys-fix: 1.1.2
+  eslint-plugin-storybook: 0.6.10_7uibuqfxkfaozanbtbziikiqje
   eslint-plugin-testing-library: 5.9.1_7uibuqfxkfaozanbtbziikiqje
   eslint-plugin-typescript-sort-keys: 2.1.0_caon6io6stgpr7lz2rtbhekxqy
   eslint-plugin-unicorn: 45.0.2_eslint@8.32.0
@@ -137,6 +139,12 @@ packages:
       picocolors: 1.0.0
       tiny-glob: 0.2.9
       tslib: 2.4.0
+    dev: false
+
+  /@storybook/csf/0.0.1:
+    resolution: {integrity: sha512-USTLkZze5gkel8MYCujSRBVIrUQ3YPBrLOx7GNk/0wttvVtlzWXAq9eLbQ4p/NicGxP+3T7KPEMVV//g+yubpw==}
+    dependencies:
+      lodash: 4.17.21
     dev: false
 
   /@types/json-schema/7.0.9:
@@ -1095,6 +1103,22 @@ packages:
       esutils: 2.0.3
       natural-compare: 1.4.0
       requireindex: 1.2.0
+    dev: false
+
+  /eslint-plugin-storybook/0.6.10_7uibuqfxkfaozanbtbziikiqje:
+    resolution: {integrity: sha512-3DKXRey06EhwnTKaG6fgMqGTy4C3z6Ikyv6VVixO5BvaExWQe3yGWIAufrC2Et0OaAMIaMwx9KWjqb/Wq+JxPg==}
+    engines: {node: 12.x || 14.x || >= 16}
+    peerDependencies:
+      eslint: '>=6'
+    dependencies:
+      '@storybook/csf': 0.0.1
+      '@typescript-eslint/utils': 5.48.2_7uibuqfxkfaozanbtbziikiqje
+      eslint: 8.32.0
+      requireindex: 1.2.0
+      ts-dedent: 2.2.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: false
 
   /eslint-plugin-testing-library/5.9.1_7uibuqfxkfaozanbtbziikiqje:
@@ -2371,6 +2395,11 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       is-number: 7.0.0
+    dev: false
+
+  /ts-dedent/2.2.0:
+    resolution: {integrity: sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==}
+    engines: {node: '>=6.10'}
     dev: false
 
   /tsconfig-paths/3.14.1:
