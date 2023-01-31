@@ -32,7 +32,7 @@ In your ESLint config file, set the `extends` property:
 
 ### TypeScript
 
-```js
+```json
 {
   "extends": ["everywhere", "everywhere/typescript"]
 }
@@ -40,7 +40,7 @@ In your ESLint config file, set the `extends` property:
 
 ### React + TypeScript
 
-```js
+```json
 {
   "extends": [
     "everywhere",
@@ -50,17 +50,17 @@ In your ESLint config file, set the `extends` property:
 }
 ```
 
-### Test(Jest + testing-library/react)
+### Test(Jest + testing-library/react + Playwright)
 
-```js
+```json
 {
-  "extends": ["everywhere/jest", "everywhere/testing-library-react"]
+  "extends": ["everywhere/jest", "everywhere/testing-library-react", "everywhere/playwright"]
 }
 ```
 
 ### Storybook
 
-```js
+```json
 {
   "extends": ["everywhere/storybook"]
 }
@@ -68,7 +68,7 @@ In your ESLint config file, set the `extends` property:
 
 ### All
 
-```js
+```json
 {
   "extends": [
     "everywhere",
@@ -76,6 +76,7 @@ In your ESLint config file, set the `extends` property:
     "everywhere/typescript",
     "everywhere/jest",
     "everywhere/testing-library-react",
+    "everywhere/playwright",
     "everywhere/storybook"
   ]
 }
@@ -83,7 +84,7 @@ In your ESLint config file, set the `extends` property:
 
 ## Run ESLint
 
-```
+```sh
 eslint /path/to/your_source
 ```
 
