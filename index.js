@@ -37,6 +37,12 @@ module.exports = {
         'newlines-between': 'never',
       },
     ],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/*.test.ts', '**/*.test.tsx'],
+      },
+    ],
     'no-console': 'error',
     'no-mixed-operators': [
       'error',
