@@ -47,7 +47,7 @@
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-testing-library": "^5.10.2",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
-    "eslint-plugin-unicorn": "^45.0.2"
+    "eslint-plugin-unicorn": "^46.0.0"
   },
   "devDependencies": {
     "eslint": "^8.35.0",
