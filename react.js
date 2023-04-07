@@ -49,6 +49,11 @@ module.exports = {
     ],
     'react/function-component-definition': 0,
     'react/require-default-props': 0,
-    'react/jsx-sort-props': 2,
+    'react/jsx-sort-props': [
+      2,
+      {
+        shorthandFirst: true,
+      },
+    ],
   },
 }
