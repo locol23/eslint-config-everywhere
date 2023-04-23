@@ -58,6 +58,14 @@ In your ESLint config file, set the `extends` property:
 }
 ```
 
+### Test(Vitest + testing-library/react + Playwright)
+
+```json
+{
+  "extends": ["everywhere/vitest", "everywhere/testing-library-react", "everywhere/playwright"]
+}
+```
+
 ### Storybook
 
 ```json
