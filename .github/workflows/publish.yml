@@ -5,26 +5,21 @@ on:
     branches:
       - main
     tags:
-      - "!*"
+      - '!*'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16]
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 5
+          fetch-depth: 3
       - uses: pnpm/action-setup@v2.4.1
-        with:
-          version: 7
+      - uses: actions/setup-node@v4
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
+          node-version-file: '.node-version'
           cache: 'pnpm'
       - name: Publish
         run: pnpx can-npm-publish && npm publish || echo "Does not publish"
@@ -39,5 +34,4 @@ jobs:
           github_repo: ${{ github.repository }}
           version: ${{ env.PACKAGE_VERSION }}
           git_commit_sha: ${{ github.sha }}
-          git_tag_prefix: "v"
-
+          git_tag_prefix: 'v'
