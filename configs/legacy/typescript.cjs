@@ -1,19 +1,18 @@
 module.exports = {
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:import/typescript',
         'prettier',
       ],
+      files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
         project: ['./tsconfig.json', './**/tsconfig.json'],
       },
       plugins: ['@typescript-eslint', 'typescript-sort-keys'],
       rules: {
-        '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/ban-types': [
           'error',
           {
@@ -24,6 +23,7 @@ module.exports = {
         ],
         '@typescript-eslint/explicit-module-boundary-types': ['error'],
         '@typescript-eslint/no-explicit-any': 'error',
+        '@typescript-eslint/no-unused-vars': 'error',
         'typescript-sort-keys/interface': ['error', 'asc', { natural: true }],
         'typescript-sort-keys/string-enum': ['error', 'asc', { natural: true }],
       },
