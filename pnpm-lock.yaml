@@ -45,8 +45,8 @@ importers:
         specifier: 9.0.18
         version: 9.0.18(eslint@9.32.0)(storybook@9.0.18(@testing-library/dom@10.4.0))(typescript@5.8.3)
       eslint-plugin-testing-library:
-        specifier: 7.6.6
-        version: 7.6.6(eslint@9.32.0)(typescript@5.8.3)
+        specifier: 7.6.8
+        version: 7.6.8(eslint@9.32.0)(typescript@5.8.3)
       eslint-plugin-turbo:
         specifier: 2.5.6
         version: 2.5.6(eslint@9.32.0)(turbo@2.5.5)
@@ -1103,8 +1103,8 @@ packages:
       eslint: '>=8'
       storybook: ^9.0.18
 
-  eslint-plugin-testing-library@7.6.6:
-    resolution: {integrity: sha512-eSexC+OPhDLuCpLbFEC7Qrk0x4IE4Mn+UW0db8YAhUatVB6CzGHdeHv4pyoInglbhhQc0Z9auY/2HKyMZW5s7Q==}
+  eslint-plugin-testing-library@7.6.8:
+    resolution: {integrity: sha512-8qvVtc9gzYsBWJd2bMJByAlOdr/GBBH2RZygvp70OTivsJkLkYRxSZFtHq1XQK8k+zNi8DcV7aiSx3avE0rf2w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0, pnpm: ^9.14.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
@@ -3355,7 +3355,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-testing-library@7.6.6(eslint@9.32.0)(typescript@5.8.3):
+  eslint-plugin-testing-library@7.6.8(eslint@9.32.0)(typescript@5.8.3):
     dependencies:
       '@typescript-eslint/scope-manager': 8.38.0
       '@typescript-eslint/utils': 8.38.0(eslint@9.32.0)(typescript@5.8.3)
