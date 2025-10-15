@@ -62,7 +62,7 @@ export function executeCommand(command: string): string {
     const output = execSync(command, { encoding: 'utf8' })
     return output.trim()
   } catch (error) {
-    throw new Error(`Command failed: ${(error as Error).message}`)
+    throw new Error(`Command failed: ${(error as Error).message}`, { cause: error })
   }
 }
 

@@ -44,6 +44,7 @@ export const react = [
         'error',
         'never',
         {
+          css: 'always',
           json: 'always',
           mjs: 'always',
         },

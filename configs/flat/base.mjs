@@ -20,14 +20,20 @@ export const base = [
       'import/no-extraneous-dependencies': [
         'error',
         {
-          devDependencies: ['**/*.test.ts', '**/*.test.tsx'],
+          devDependencies: [
+            '**/*.test.ts',
+            '**/*.test.tsx',
+            '**/*.config.{js,ts,mjs,cjs}',
+            '**/*.setup.{js,ts,mjs,cjs}',
+            '**/.storybook/**/*.{js,ts,mjs,cjs}',
+          ],
         },
       ],
       'import/no-named-as-default': 'off',
       'import/no-named-as-default-member': 'off',
       'import/no-unresolved': 'off',
       'import/no-useless-path-segments': 'error',
-      'import/order': 'off', // perfectionistのsort-importsで代替
+      'import/order': 'off',
     },
   },
   eslintPluginUnicorn.configs.recommended,
@@ -113,6 +119,7 @@ export const base = [
           type: 'natural',
         },
       ],
+      'preserve-caught-error': 'error',
     },
   },
   {
