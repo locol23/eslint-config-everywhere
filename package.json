@@ -60,7 +60,7 @@
     "typescript-eslint": "8.48.0"
   },
   "devDependencies": {
-    "@playwright/test": "1.56.1",
+    "@playwright/test": "1.57.0",
     "@storybook/react": "9.1.16",
     "@storybook/test": "8.6.14",
     "@types/react": "19.2.7",
