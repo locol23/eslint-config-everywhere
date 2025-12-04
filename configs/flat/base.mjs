@@ -26,6 +26,7 @@ export const base = [
             '**/*.config.{js,ts,mjs,cjs}',
             '**/*.setup.{js,ts,mjs,cjs}',
             '**/.storybook/**/*.{js,ts,mjs,cjs}',
+            '**/mocks/**/*.{js,ts,mjs,cjs}',
           ],
         },
       ],
