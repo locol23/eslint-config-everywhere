@@ -57,7 +57,7 @@
     "eslint-plugin-unicorn": "60.0.0",
     "eslint-plugin-vitest": "0.5.4",
     "globals": "16.5.0",
-    "typescript-eslint": "8.48.1"
+    "typescript-eslint": "8.49.0"
   },
   "devDependencies": {
     "@playwright/test": "1.57.0",
@@ -76,5 +76,5 @@
   "engines": {
     "node": ">= 22.21.1"
   },
-  "packageManager": "pnpm@10.24.0"
+  "packageManager": "pnpm@10.25.0"
 }
