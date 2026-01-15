@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-everywhere",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "description": "ESLint config for everywhere",
   "type": "module",
   "files": [
