@@ -6,7 +6,7 @@ import promisePlugin from 'eslint-plugin-promise'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
 
-/** @type {import("eslint").Linter.Config} */
+/** @type {import("eslint").Linter.Config[]} */
 export const base = [
   js.configs.recommended,
   {
@@ -122,7 +122,6 @@ export const base = [
           type: 'natural',
         },
       ],
-      'preserve-caught-error': 'error',
     },
   },
   {
