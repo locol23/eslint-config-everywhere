@@ -1,7 +1,7 @@
 import pluginN from 'eslint-plugin-n'
 import globals from 'globals'
 
-/** @type {import("eslint").Linter.Config} */
+/** @type {import("eslint").Linter.Config[]} */
 export const node = [
   pluginN.configs['flat/recommended'],
   {

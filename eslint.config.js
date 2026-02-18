@@ -1,4 +1,4 @@
-import { base, typescript, react, playwright, vitest, storybook, node } from './configs/flat/index.mjs'
+import { base, typescript, react, playwright, vitest, storybook, node, turbo, testingLibraryReact } from 'eslint-config-everywhere'
 
 export default [
   ...base,
@@ -7,9 +7,14 @@ export default [
   ...playwright,
   ...vitest,
   ...storybook,
+  ...testingLibraryReact,
   {
-    files: ['tests/node/**/*.js'],
+    files: ['tests/node/**/*.ts'],
     ...node[0],
+  },
+  {
+    files: ['tests/turbo/**/*.ts'],
+    ...turbo[0],
   },
   {
     rules: {

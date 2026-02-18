@@ -1,8 +1,9 @@
 import storybookPlugin from 'eslint-plugin-storybook'
 
+/** @type {import("eslint").Linter.Config[]} */
 export const storybook = [
   {
-    files: ['*.stories.@(ts|tsx|js|jsx|mjs|cjs)'],
+    files: ['**/*.stories.@(ts|tsx|js|jsx|mjs|cjs)'],
     plugins: {
       storybook: storybookPlugin,
     },
