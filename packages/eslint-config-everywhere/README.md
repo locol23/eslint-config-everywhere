@@ -1,6 +1,6 @@
 # eslint-config-everywhere [![npm version](https://img.shields.io/npm/v/eslint-config-everywhere.svg)](https://www.npmjs.com/package/eslint-config-everywhere) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/locol23/config-everywhere/blob/main/packages/eslint-config-everywhere/LICENSE)
 
-ESLint config for everywhere
+Sharable ESLint config for everywhere
 
 > **Optimized for Modern Development**: This package uses ESLint v9+ flat config with the latest plugin versions and includes comprehensive configurations for TypeScript (using modern typescript-eslint), React, Next.js, Promise best practices, Vitest, Playwright, and Storybook. Perfect for BFF applications and frontend projects alike.
 
