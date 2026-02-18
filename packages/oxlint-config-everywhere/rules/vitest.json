@@ -1,0 +1,13 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "rules": {
+        "vitest/no-disabled-tests": "warn"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "./base.json",
+    "../rules/react.json",
+    "../rules/jsx-a11y.json",
+    "../rules/react-perf.json"
+  ],
+  "plugins": ["react", "jsx-a11y", "react-perf"]
+}

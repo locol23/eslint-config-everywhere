@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "react/no-unknown-property": "error",
+    "react/no-array-index-key": "error",
+    "react/jsx-boolean-value": "error",
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "react/jsx-max-depth": ["error", { "max": 5 }],
+    "react/jsx-no-script-url": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-props-no-spreading": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/display-name": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}

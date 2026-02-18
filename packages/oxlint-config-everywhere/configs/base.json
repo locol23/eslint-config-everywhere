@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "../rules/core.json",
+    "../rules/typescript.json",
+    "../rules/import.json",
+    "../rules/unicorn.json",
+    "../rules/promise.json",
+    "../rules/oxc.json",
+    "../rules/node.json"
+  ],
+  "plugins": ["import", "unicorn", "promise", "typescript", "node", "jsdoc"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn",
+    "pedantic": "warn",
+    "style": "warn"
+  },
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "es2026": true,
+    "serviceworker": true
+  }
+}

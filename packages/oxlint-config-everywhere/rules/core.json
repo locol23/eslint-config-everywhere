@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "no-empty": "error",
+    "no-regex-spaces": "error",
+    "no-console": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "curly": "off",
+    "func-style": "off",
+    "max-lines-per-function": "off",
+    "max-statements": "off",
+    "new-cap": "off",
+    "no-magic-numbers": "off",
+    "no-nested-ternary": "off",
+    "no-ternary": "off",
+    "sort-imports": "off",
+    "sort-keys": "off"
+  }
+}

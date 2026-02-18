@@ -5,3 +5,4 @@ Monorepo for shareable linter and tool configurations.
 ## Packages
 
 - [eslint-config-everywhere](./packages/eslint-config-everywhere/) - ESLint config for everywhere
+- [oxlint-config-everywhere](./packages/oxlint-config-everywhere/) - Oxlint config for everywhere

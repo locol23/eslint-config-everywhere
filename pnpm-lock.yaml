@@ -105,6 +105,8 @@ importers:
         specifier: 8.52.0
         version: 8.52.0(eslint@9.39.1)(typescript@5.9.3)
 
+  packages/oxlint-config-everywhere: {}
+
 packages:
 
   '@adobe/css-tools@4.4.3':
