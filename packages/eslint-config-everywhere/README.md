@@ -83,16 +83,6 @@ import { base, storybook } from 'eslint-config-everywhere'
 export default [...base, ...storybook]
 ```
 
-### Next.js with TypeScript Configuration
-
-```js
-import { recommended, next } from 'eslint-config-everywhere'
-
-export default [...recommended, ...next]
-```
-
-The `next` configuration automatically includes React rules (react, react-hooks, jsx-a11y plugins). React rules from both `recommended` and `next` will be applied, with `next` rules taking precedence where there are conflicts.
-
 ### Available Configurations
 
 - `base` - Core ESLint rules with import, perfectionist, promise, and unicorn plugins
