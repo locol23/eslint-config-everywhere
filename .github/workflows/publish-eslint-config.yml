@@ -1,9 +1,11 @@
-name: Publish
+name: Publish eslint-config-everywhere
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'packages/eslint-config-everywhere/**'
     tags:
       - '!*'
 
