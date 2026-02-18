@@ -1,4 +1,4 @@
-# eslint-config-everywhere・[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/locol23/config-everywhere/blob/main/packages/eslint-config-everywhere/LICENSE)
+# eslint-config-everywhere [![npm version](https://img.shields.io/npm/v/eslint-config-everywhere.svg)](https://www.npmjs.com/package/eslint-config-everywhere) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/locol23/config-everywhere/blob/main/packages/eslint-config-everywhere/LICENSE)
 
 ESLint config for everywhere
 
