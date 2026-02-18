@@ -22,8 +22,13 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Check if publish is needed
+        id: check-publish
+        run: pnpx can-npm-publish && echo "should_publish=true" >> $GITHUB_OUTPUT || echo "should_publish=false" >> $GITHUB_OUTPUT
+        working-directory: packages/eslint-config-everywhere
       - name: Publish
-        run: pnpx can-npm-publish && npm publish || echo "Does not publish"
+        if: steps.check-publish.outputs.should_publish == 'true'
+        run: npm publish
         working-directory: packages/eslint-config-everywhere
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
