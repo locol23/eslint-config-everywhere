@@ -11,9 +11,10 @@
   "plugins": ["import", "unicorn", "promise", "typescript", "node", "jsdoc"],
   "categories": {
     "correctness": "error",
-    "suspicious": "warn",
-    "pedantic": "warn",
-    "style": "warn"
+    "suspicious": "error",
+    "pedantic": "error",
+    "style": "error",
+    "restriction": "error"
   },
   "env": {
     "builtin": true,

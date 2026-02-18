@@ -1,6 +1,3 @@
 {
-  "rules": {
-    "oxc/bad-bitwise-operator": "error",
-    "oxc/no-accumulating-spread": "warn"
-  }
+  "rules": {}
 }

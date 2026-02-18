@@ -5,7 +5,6 @@
     "import/group-exports": "off",
     "import/max-dependencies": "off",
     "import/no-anonymous-default-export": "off",
-    "import/no-cycle": "error",
     "import/no-named-export": "off",
     "import/no-namespace": "off",
     "import/no-nodejs-modules": "off",

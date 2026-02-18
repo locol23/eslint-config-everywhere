@@ -9,20 +9,6 @@
         }
       }
     ],
-    "unicorn/no-abusive-eslint-disable": "error",
-    "unicorn/no-anonymous-default-export": "error",
-    "unicorn/no-array-for-each": "error",
-    "unicorn/no-array-reduce": "error",
-    "unicorn/no-document-cookie": "error",
-    "unicorn/no-magic-array-flat-depth": "error",
-    "unicorn/no-nested-ternary": "off",
-    "unicorn/no-process-exit": "error",
-    "unicorn/no-useless-error-capture-stack-trace": "error",
-    "unicorn/prefer-array-find": "error",
-    "unicorn/prefer-array-flat-map": "error",
-    "unicorn/prefer-modern-math-apis": "error",
-    "unicorn/prefer-node-protocol": "error",
-    "unicorn/prefer-number-properties": "error",
-    "unicorn/prefer-set-has": "error"
+    "unicorn/no-nested-ternary": "off"
   }
 }
