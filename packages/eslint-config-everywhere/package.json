@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/locol23/eslint-config-everywhere.git"
+    "url": "git+https://github.com/locol23/config-everywhere.git"
   },
   "keywords": [
     "eslint",
@@ -26,9 +26,9 @@
   "author": "Yoshitaka Terazawa <locol6622@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/locol23/eslint-config-everywhere/issues"
+    "url": "https://github.com/locol23/config-everywhere/issues"
   },
-  "homepage": "https://github.com/locol23/eslint-config-everywhere#readme",
+  "homepage": "https://github.com/locol23/config-everywhere#readme",
   "dependencies": {
     "@eslint/js": "9.39.2",
     "@next/eslint-plugin-next": "15.5.9",

@@ -1,5 +1,7 @@
-# eslint-config-everywhere
+# config-everywhere
 
-Monorepo for ESLint configurations.
+Monorepo for shareable linter and tool configurations.
 
-See [packages/eslint-config-everywhere](./packages/eslint-config-everywhere/) for the main package.
+## Packages
+
+- [eslint-config-everywhere](./packages/eslint-config-everywhere/) - ESLint config for everywhere

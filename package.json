@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-everywhere-monorepo",
+  "name": "config-everywhere",
   "private": true,
   "type": "module",
   "scripts": {
