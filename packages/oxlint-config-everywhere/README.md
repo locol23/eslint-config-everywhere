@@ -46,26 +46,41 @@ oxlint --config node_modules/oxlint-config-everywhere/configs/next.json
 
 ### Vitest Configuration
 
-Vitest testing framework rules. Combine with a base config:
+Vitest testing framework rules. Combine with a base config via `extends` in your `.oxlintrc.json`:
 
-```bash
-oxlint --config node_modules/oxlint-config-everywhere/configs/base.json --config node_modules/oxlint-config-everywhere/configs/vitest.json
+```json
+{
+  "extends": [
+    "oxlint-config-everywhere/configs/base.json",
+    "oxlint-config-everywhere/configs/vitest.json"
+  ]
+}
 ```
 
 ### Playwright Configuration
 
-Relaxes rules for Playwright test files (e.g., `no-empty-pattern` for destructured fixtures). Combine with a base config:
+Relaxes rules for Playwright test files (e.g., `no-empty-pattern` for destructured fixtures). Combine with a base config via `extends`:
 
-```bash
-oxlint --config node_modules/oxlint-config-everywhere/configs/base.json --config node_modules/oxlint-config-everywhere/configs/playwright.json
+```json
+{
+  "extends": [
+    "oxlint-config-everywhere/configs/base.json",
+    "oxlint-config-everywhere/configs/playwright.json"
+  ]
+}
 ```
 
 ### Storybook Configuration
 
-Relaxes rules for Storybook story files (e.g., `react-hooks/rules-of-hooks`, `react-perf/*`). Combine with a React or Next.js config:
+Relaxes rules for Storybook story files (e.g., `react-hooks/rules-of-hooks`, `react-perf/*`). Combine with a React or Next.js config via `extends`:
 
-```bash
-oxlint --config node_modules/oxlint-config-everywhere/configs/react.json --config node_modules/oxlint-config-everywhere/configs/storybook.json
+```json
+{
+  "extends": [
+    "oxlint-config-everywhere/configs/react.json",
+    "oxlint-config-everywhere/configs/storybook.json"
+  ]
+}
 ```
 
 ## Configuration Hierarchy
