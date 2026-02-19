@@ -17,11 +17,11 @@ jobs:
       contents: write
       id-token: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
         with:
           fetch-depth: 3
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version-file: '.node-version'
           cache: 'pnpm'
@@ -40,7 +40,7 @@ jobs:
       - name: package-version
         run: node -p -e '`PACKAGE_VERSION=${require("./packages/eslint-config-everywhere/package.json").version}`' >> $GITHUB_ENV
       - name: package-version-to-git-tag
-        uses: pkgdeps/git-tag-action@v3.0.0
+        uses: pkgdeps/git-tag-action@ef111413f44ebe5cc05994e7f5b5b9edaaada08d # v3.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: ${{ github.repository }}

@@ -23,6 +23,6 @@
   "homepage": "https://github.com/locol23/config-everywhere#readme",
   "files": ["rules", "configs"],
   "peerDependencies": {
-    "oxlint": ">=0.15.0"
+    "oxlint": "1.49.0"
   }
 }
