@@ -1,0 +1,28 @@
+{
+  "name": "oxlint-config-everywhere",
+  "version": "1.0.0",
+  "description": "Oxlint config for everywhere",
+  "keywords": [
+    "linting",
+    "oxlint",
+    "oxlint-config",
+    "typescript",
+    "react",
+    "next",
+    "vitest",
+    "playwright"
+  ],
+  "author": "Yoshitaka Terazawa <locol6622@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locol23/config-everywhere.git",
+    "directory": "packages/oxlint-config-everywhere"
+  },
+  "bugs": { "url": "https://github.com/locol23/config-everywhere/issues" },
+  "homepage": "https://github.com/locol23/config-everywhere#readme",
+  "files": ["rules", "configs"],
+  "peerDependencies": {
+    "oxlint": ">=0.15.0"
+  }
+}

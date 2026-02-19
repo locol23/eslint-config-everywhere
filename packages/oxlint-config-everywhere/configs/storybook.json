@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "**/*.stories.@(ts|tsx|js|jsx|mjs|cjs)",
+        "**/*.story.@(ts|tsx|js|jsx|mjs|cjs)"
+      ],
+      "rules": {
+        "react-hooks/rules-of-hooks": "off"
+      }
+    },
+    {
+      "files": ["**/*.stories.tsx", "**/*.stories.ts"],
+      "rules": {
+        "react-perf/jsx-no-jsx-as-prop": "off",
+        "react-perf/jsx-no-new-array-as-prop": "off",
+        "react-perf/jsx-no-new-function-as-prop": "off",
+        "react-perf/jsx-no-new-object-as-prop": "off"
+      }
+    }
+  ]
+}

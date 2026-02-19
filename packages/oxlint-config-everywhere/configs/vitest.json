@@ -1,0 +1,4 @@
+{
+  "extends": ["../rules/vitest.json"],
+  "plugins": ["vitest"]
+}

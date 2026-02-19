@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "react/jsx-max-depth": ["error", { "max": 5 }],
+    "react/display-name": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}
